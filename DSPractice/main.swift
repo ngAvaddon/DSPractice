@@ -25,6 +25,7 @@ print(stack)
 print(stack.count)
 */
 
+/*
 var queue = Queue<Int>()
 var element = queue.deque()
 
@@ -36,3 +37,28 @@ print(queue)
 element = queue.deque()
 print(element)
 print(queue)
+*/
+
+var root = Node(value: "Test")
+var node1 = Node(value: "Test 1")
+root.add(child: node1)
+
+var node2 = Node(value: "Test 2")
+root.add(child: node2)
+
+var node3 = Node(value: "Test 3")
+node1.add(child: node3)
+
+var node4 = Node(value: "Test 4")
+node1.add(child: node4)
+
+print(root)
+
+var node = root.search(value: "Test 4")
+print(node)
+
+node = root.searchBFS(value: "Test 4")
+print(node)
+
+
+
