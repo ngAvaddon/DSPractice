@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C5A71F61F7212D30020FC0F /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A71F51F7212D30020FC0F /* HashTable.swift */; };
+		4C5A71F81F721C7A0020FC0F /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A71F71F721C7A0020FC0F /* Trie.swift */; };
 		4CB5ADFC1F70CAD8001B7DE5 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5ADFB1F70CAD8001B7DE5 /* Tree.swift */; };
 		6A2B7C131F70265700FFD555 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B7C121F70265700FFD555 /* main.swift */; };
 		6A2B7C1A1F70266700FFD555 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B7C191F70266700FFD555 /* Stack.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		4C5A71F51F7212D30020FC0F /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		4C5A71F71F721C7A0020FC0F /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		4CB5ADFB1F70CAD8001B7DE5 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		6A2B7C0F1F70265700FFD555 /* DSPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2B7C121F70265700FFD555 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				4CB5ADFB1F70CAD8001B7DE5 /* Tree.swift */,
 				6A2B7C1B1F702AED00FFD555 /* Queue.swift */,
 				4C5A71F51F7212D30020FC0F /* HashTable.swift */,
+				4C5A71F71F721C7A0020FC0F /* Trie.swift */,
 				6A2B7C121F70265700FFD555 /* main.swift */,
 			);
 			path = DSPractice;
@@ -135,6 +138,7 @@
 				6A2B7C1A1F70266700FFD555 /* Stack.swift in Sources */,
 				4CB5ADFC1F70CAD8001B7DE5 /* Tree.swift in Sources */,
 				4C5A71F61F7212D30020FC0F /* HashTable.swift in Sources */,
+				4C5A71F81F721C7A0020FC0F /* Trie.swift in Sources */,
 				6A2B7C1C1F702AED00FFD555 /* Queue.swift in Sources */,
 				6A2B7C131F70265700FFD555 /* main.swift in Sources */,
 			);

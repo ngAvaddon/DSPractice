@@ -66,6 +66,7 @@ print(node)
 */
 
 // MARK: - HashTable
+/*
 var hashTable = HashTable<String, String>(capacity: 5)
 print(hashTable)
 
@@ -77,4 +78,20 @@ hashTable["firstName"] = "Tim"     // update
 print(hashTable)
 hashTable["firstName"] = nil       // delete
 print(hashTable)
+
+*/
+
+let trie = Trie()
+trie.insert(word: "cute")
+print(trie)
+trie.insert(word: "cut")
+print(trie)
+trie.insert(word: "cutoff")
+print(trie)
+//trie.remove(word: "cute")
+print(trie.contains(word: "cut"))
+print(trie.contains(word: "cute"))
+print(trie.contains(word: "not cut"))
+
+
 
