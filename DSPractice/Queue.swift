@@ -7,7 +7,7 @@ struct Queue<Element>: CustomStringConvertible {
     mutating func enque(element: Element) {
         array.append(element)
     }
-    
+
     mutating func deque() -> Element? {
         guard let _ = array.first else { return nil }
 

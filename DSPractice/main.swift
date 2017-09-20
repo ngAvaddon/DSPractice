@@ -8,6 +8,7 @@
 
 import Foundation
 
+// MARK: - Stack
 /*
 var stack = Stack<String>()
 stack.push(element: "Test1")
@@ -25,6 +26,7 @@ print(stack)
 print(stack.count)
 */
 
+// MARK: - Queue
 /*
 var queue = Queue<Int>()
 var element = queue.deque()
@@ -39,6 +41,8 @@ print(element)
 print(queue)
 */
 
+// MARK: - Tree
+/*
 var root = Node(value: "Test")
 var node1 = Node(value: "Test 1")
 root.add(child: node1)
@@ -59,6 +63,18 @@ print(node)
 
 node = root.searchBFS(value: "Test 4")
 print(node)
+*/
 
+// MARK: - HashTable
+var hashTable = HashTable<String, String>(capacity: 5)
+print(hashTable)
 
+hashTable["firstName"] = "Steve"   // insert
+print(hashTable)
+let x = hashTable["firstName"]     // lookup
+print(x)
+hashTable["firstName"] = "Tim"     // update
+print(hashTable)
+hashTable["firstName"] = nil       // delete
+print(hashTable)
 
