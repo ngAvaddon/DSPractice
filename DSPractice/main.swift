@@ -81,6 +81,7 @@ print(hashTable)
 
 */
 
+/*
 let trie = Trie()
 trie.insert(word: "cute")
 print(trie)
@@ -92,6 +93,30 @@ print(trie)
 print(trie.contains(word: "cut"))
 print(trie.contains(word: "cute"))
 print(trie.contains(word: "not cut"))
+*/
+
+/*
+let array = [1,2,3,4,5,6,7,8,9]
+let elementIndex = array.binarySearch(element: 5, range: 0..<array.count)
+print(elementIndex)
+*/
+
+/*
+let array = Array([1,2,3,4,5,6,7,8,9].reversed())
+let result = array.quickSort()
+print(result)
+*/
+
+/*
+let array = Array([1,2,3,4,5,6,7,8,9].reversed())
+let result = array.mergeSortTopDown()
+print(result)
+*/
+
+let array = Array([1,2,3,4,5,6,7,8,9].reversed())
+let result = array.mergeSortBottomUp()
+print(result)
+
 
 
 
