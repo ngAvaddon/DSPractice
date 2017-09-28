@@ -113,10 +113,15 @@ let result = array.mergeSortTopDown()
 print(result)
 */
 
+/*
 let array = Array([1,2,3,4,5,6,7,8,9].reversed())
 let result = array.mergeSortBottomUp()
 print(result)
+*/
 
+let array = Array([1,2,3,4,5,6,7,8,9].reversed())
+let result = array.bubbleSort()
+print(result)
 
 
 

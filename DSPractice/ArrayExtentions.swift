@@ -155,4 +155,29 @@ extension Array where Iterator.Element == Int {
 
         return result
     }
+    
+    // MARK: - Bubble
+    
+    func bubbleSort() -> [Element] {
+        var result = [Int]()
+        result.append(contentsOf: self)
+        var swaps = 0
+        var sortedAboveIndex = result.count
+
+        repeat {
+            var swapIndex = 0
+            for i in 1..<sortedAboveIndex {
+                if result[i - 1] > result[i] {
+                    result.swapAt(i, i - 1)
+                    swapIndex = i
+                    swaps += 1
+                }
+            }
+            sortedAboveIndex = swapIndex
+            print("swap \(swaps): \(result)")
+        } while (sortedAboveIndex != 0)
+        
+        print("Array is sorted in \(swaps) swaps.")
+        return result
+    }
 }
